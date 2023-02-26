@@ -1,0 +1,48 @@
+nav ,footer {
+    background-color: blueviolet;
+    padding: 24px;
+}
+nav img  ,footer img {
+    width: 175px;
+    
+    border-radius: 50%;
+    
+    float: left;
+}
+img {
+    margin-right: 20px;
+
+}
+    nav ul li ,ul li {
+    
+        display: inline-block;
+        padding: 20px 10px;
+        font-family: 'Righteous', cursive;
+        margin-right: 30px;
+    }
+    #p1{
+        border:black solid 2px;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 500px;
+        margin-right:500px;
+    }
+    
+    #p2{
+        font-size: xx-large;
+        margin-left: 600px;
+        margin-top: 50px;
+    }
+    form{
+        font-size: 50px;
+        text-align: center;
+         margin: 50px 400px;
+    }
+    button {
+         padding: 12px 20px;
+        width: 40%;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-top: 15px;
+        background-color: darkgray;
+    }
