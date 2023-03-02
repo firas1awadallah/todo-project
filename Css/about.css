@@ -13,6 +13,13 @@ img {
     margin-right: 20px;
 
 }
+main img{
+    margin-left: 500px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+ul li a {
+    text-decoration: none;}
     nav ul li ,ul li {
     
         display: inline-block;
@@ -29,12 +36,13 @@ img {
     }
     
     #p2{
-        font-size: xx-large;
+        
         margin-left: 600px;
         margin-top: 50px;
     }
     form{
-        font-size: 50px;
+        border:black solid 2px;
+        font-size: 20px;
         text-align: center;
          margin: 50px 400px;
     }
