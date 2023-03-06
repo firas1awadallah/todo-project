@@ -1,5 +1,5 @@
 "use strict"
-/*let userName = prompt("Enter Your Name please");
+let userName = prompt("Enter Your Name please");
 let gender = prompt("Enter Your Gender please");
 if (gender !== "male" && gender !== "female") 
 {
@@ -24,7 +24,7 @@ if (conf == false)
 {
     alert("hello Ms " + userName );
     
-} } */
+} } 
 let whereLiving = prompt("Do you live in jordan ?");
 function living (){
 if (whereLiving == "yes" || whereLiving == "no") {
