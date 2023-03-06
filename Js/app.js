@@ -1,5 +1,5 @@
 "use strict"
-let userName = prompt("Enter Your Name please");
+/*let userName = prompt("Enter Your Name please");
 let gender = prompt("Enter Your Gender please");
 if (gender !== "male" && gender !== "female") 
 {
@@ -24,7 +24,7 @@ if (conf == false)
 {
     alert("hello Ms " + userName );
     
-} } 
+} } */
 let whereLiving = prompt("Do you live in jordan ?");
 function living (){
 if (whereLiving == "yes" || whereLiving == "no") {
@@ -47,10 +47,11 @@ let knowJavascript = prompt("Do you know anything about javascript ?");
 function knowing (){
 if (knowJavascript == "yes" || knowJavascript == "no") {
     return knowJavascript
+    
 }else
 {
-    knowJavascript = "invalid"
-    return knowJavascript
+   knowJavascript = "invalid"
+    return knowJavascript;
     
 }
 }
@@ -58,7 +59,8 @@ let answerArray = [];
 answerArray.push(living());
 answerArray.push(loving());
 answerArray.push(knowing());
-console.log(answerArray);
+console.log(answerArray[0],answerArray[1],answerArray[2]);
+
 
 
 
