@@ -59,7 +59,11 @@ let answerArray = [];
 answerArray.push(living());
 answerArray.push(loving());
 answerArray.push(knowing());
-console.log(answerArray[0],answerArray[1],answerArray[2]);
+for(let i=0;i<answerArray.length;i++){
+   console.log(answerArray[i]);
+
+}
+//console.log(answerArray[0],answerArray[1],answerArray[2]);
 
 
 
